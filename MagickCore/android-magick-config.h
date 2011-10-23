@@ -12,9 +12,9 @@
 /* #undef AUTOTRACE_DELEGATE */
 
 /* Define if coders and filters are to be built as modules. */
-#ifndef MAGICKCORE_BUILD_MODULES
-#define MAGICKCORE_BUILD_MODULES 1
-#endif
+//#ifndef MAGICKCORE_BUILD_MODULES
+//#define MAGICKCORE_BUILD_MODULES 1
+//#endif
 
 /* Define if you have the bzip2 library */
 #ifndef MAGICKCORE_BZLIB_DELEGATE
@@ -56,9 +56,9 @@
 #endif
 
 /* Define if you have DJVU library */
-#ifndef MAGICKCORE_DJVU_DELEGATE
-#define MAGICKCORE_DJVU_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_DJVU_DELEGATE
+//#define MAGICKCORE_DJVU_DELEGATE 1
+//#endif
 
 /* Directory where ImageMagick documents live. */
 #ifndef MAGICKCORE_DOCUMENTATION_PATH
@@ -1166,14 +1166,14 @@
 #endif
 
 /* Define if you have JBIG library */
-#ifndef MAGICKCORE_JBIG_DELEGATE
-#define MAGICKCORE_JBIG_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_JBIG_DELEGATE
+//#define MAGICKCORE_JBIG_DELEGATE 1
+//#endif
 
 /* Define if you have JPEG version 2 "Jasper" library */
-#ifndef MAGICKCORE_JP2_DELEGATE
-#define MAGICKCORE_JP2_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_JP2_DELEGATE
+//#define MAGICKCORE_JP2_DELEGATE 1
+//#endif
 
 /* Define if you have JPEG library */
 #ifndef MAGICKCORE_JPEG_DELEGATE
@@ -1262,9 +1262,9 @@
 /* #undef NO_MINUS_C_MINUS_O */
 
 /* Define if you have OPENEXR library */
-#ifndef MAGICKCORE_OPENEXR_DELEGATE
-#define MAGICKCORE_OPENEXR_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_OPENEXR_DELEGATE
+//#define MAGICKCORE_OPENEXR_DELEGATE 1
+//#endif
 
 /* Define to the address where bug reports for this package should be sent. */
 #ifndef MAGICKCORE_PACKAGE_BUGREPORT
@@ -1458,9 +1458,9 @@
 
 
 /* Define if you have WEBP library */
-#ifndef MAGICKCORE_WEBP_DELEGATE
-#define MAGICKCORE_WEBP_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_WEBP_DELEGATE
+//#define MAGICKCORE_WEBP_DELEGATE 1
+//#endif
 
 /* Define to use the Windows GDI32 library */
 /* #undef WINGDI32_DELEGATE */
@@ -1469,9 +1469,9 @@
 /* #undef WITH_DMALLOC */
 
 /* Define if you have WMF library */
-#ifndef MAGICKCORE_WMF_DELEGATE
-#define MAGICKCORE_WMF_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_WMF_DELEGATE
+//#define MAGICKCORE_WMF_DELEGATE 1
+//#endif
 
 /* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
    significant byte first (like Motorola and SPARC, unlike Intel). */
