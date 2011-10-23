@@ -77,9 +77,9 @@
 #endif
 
 /* Define if you have FFTW library */
-#ifndef MAGICKCORE_FFTW_DELEGATE
-#define MAGICKCORE_FFTW_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_FFTW_DELEGATE
+//#define MAGICKCORE_FFTW_DELEGATE 1
+//#endif
 
 /* Location of filter modules */
 #ifndef MAGICKCORE_FILTER_PATH
@@ -92,9 +92,9 @@
 #endif
 
 /* Define if you have FONTCONFIG library */
-#ifndef MAGICKCORE_FONTCONFIG_DELEGATE
-#define MAGICKCORE_FONTCONFIG_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_FONTCONFIG_DELEGATE
+//#define MAGICKCORE_FONTCONFIG_DELEGATE 1
+//#endif
 
 /* Define if you have FlashPIX library */
 /* #undef FPX_DELEGATE */
@@ -108,9 +108,9 @@
 /* #undef GS_DELEGATE */
 
 /* Define if you have GVC library */
-#ifndef MAGICKCORE_GVC_DELEGATE
-#define MAGICKCORE_GVC_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_GVC_DELEGATE
+//#define MAGICKCORE_GVC_DELEGATE 1
+//#endif
 
 /* Define to 1 if you have the `acosh' function. */
 #ifndef MAGICKCORE_HAVE_ACOSH
@@ -221,14 +221,14 @@
 #endif
 
 /* Define to 1 if you have the <CL/cl.h> header file. */
-#ifndef MAGICKCORE_HAVE_CL_CL_H
-#define MAGICKCORE_HAVE_CL_CL_H 1
-#endif
+//#ifndef MAGICKCORE_HAVE_CL_CL_H
+//#define MAGICKCORE_HAVE_CL_CL_H 1
+//#endif
 
 /* Define to 1 if you have the <complex.h> header file. */
-#ifndef MAGICKCORE_HAVE_COMPLEX_H
-#define MAGICKCORE_HAVE_COMPLEX_H 1
-#endif
+//#ifndef MAGICKCORE_HAVE_COMPLEX_H
+//#define MAGICKCORE_HAVE_COMPLEX_H 1
+//#endif
 
 /* Define to 1 if you have the `creal' function. */
 #ifndef MAGICKCORE_HAVE_CREAL
@@ -441,9 +441,9 @@
 /* #undef HAVE_LCMS2_LCMS2_H */
 
 /* Define if you have the <lcms.h> header file. */
-#ifndef MAGICKCORE_HAVE_LCMS_H
-#define MAGICKCORE_HAVE_LCMS_H 1
-#endif
+//#ifndef MAGICKCORE_HAVE_LCMS_H
+//#define MAGICKCORE_HAVE_LCMS_H 1
+//#endif
 
 /* Define if you have the <lcms/lcms.h> header file. */
 /* #undef HAVE_LCMS_LCMS_H */
@@ -616,9 +616,9 @@
 #endif
 
 /* Define to 1 if you have the `posix_madvise' function. */
-#ifndef MAGICKCORE_HAVE_POSIX_MADVISE
-#define MAGICKCORE_HAVE_POSIX_MADVISE 1
-#endif
+//#ifndef MAGICKCORE_HAVE_POSIX_MADVISE
+//#define MAGICKCORE_HAVE_POSIX_MADVISE 1
+//#endif
 
 /* Define to 1 if you have the `posix_memalign' function. */
 #ifndef MAGICKCORE_HAVE_POSIX_MEMALIGN
@@ -856,9 +856,9 @@
 #endif
 
 /* Define to 1 if you have the `strtod_l' function. */
-#ifndef MAGICKCORE_HAVE_STRTOD_L
-#define MAGICKCORE_HAVE_STRTOD_L 1
-#endif
+//#ifndef MAGICKCORE_HAVE_STRTOD_L
+//#define MAGICKCORE_HAVE_STRTOD_L 1
+//#endif
 
 /* Define to 1 if you have the `strtol' function. */
 #ifndef MAGICKCORE_HAVE_STRTOL
@@ -965,9 +965,9 @@
 #endif
 
 /* Define to 1 if you have the <tiffconf.h> header file. */
-#ifndef MAGICKCORE_HAVE_TIFFCONF_H
-#define MAGICKCORE_HAVE_TIFFCONF_H 1
-#endif
+//#ifndef MAGICKCORE_HAVE_TIFFCONF_H
+//#define MAGICKCORE_HAVE_TIFFCONF_H 1
+//#endif
 
 /* Define to 1 if you have the `TIFFIsCODECConfigured' function. */
 #ifndef MAGICKCORE_HAVE_TIFFISCODECCONFIGURED
@@ -1043,9 +1043,9 @@
 #endif
 
 /* Define to 1 if you have the `uselocale' function. */
-#ifndef MAGICKCORE_HAVE_USELOCALE
-#define MAGICKCORE_HAVE_USELOCALE 1
-#endif
+//#ifndef MAGICKCORE_HAVE_USELOCALE
+//#define MAGICKCORE_HAVE_USELOCALE 1
+//#endif
 
 /* Define to 1 if you have the `usleep' function. */
 #ifndef MAGICKCORE_HAVE_USLEEP
@@ -1120,9 +1120,9 @@
 #endif
 
 /* Define to 1 if you have the <xlocale.h> header file. */
-#ifndef MAGICKCORE_HAVE_XLOCALE_H
-#define MAGICKCORE_HAVE_XLOCALE_H 1
-#endif
+//#ifndef MAGICKCORE_HAVE_XLOCALE_H
+//#define MAGICKCORE_HAVE_XLOCALE_H 1
+//#endif
 
 /* Define to 1 if the system has the type `_Bool'. */
 #ifndef MAGICKCORE_HAVE__BOOL
@@ -1181,9 +1181,9 @@
 #endif
 
 /* Define if you have LCMS (v1.11 or later) library */
-#ifndef MAGICKCORE_LCMS_DELEGATE
-#define MAGICKCORE_LCMS_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_LCMS_DELEGATE
+//#define MAGICKCORE_LCMS_DELEGATE 1
+//#endif
 
 /* Directory where architecture-dependent files live. */
 #ifndef MAGICKCORE_LIBRARY_PATH
@@ -1197,14 +1197,14 @@
 #endif
 
 /* Define if you have LQR library */
-#ifndef MAGICKCORE_LQR_DELEGATE
-#define MAGICKCORE_LQR_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_LQR_DELEGATE
+//#define MAGICKCORE_LQR_DELEGATE 1
+//#endif
 
 /* Define if using libltdl to support dynamically loadable modules */
-#ifndef MAGICKCORE_LTDL_DELEGATE
-#define MAGICKCORE_LTDL_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_LTDL_DELEGATE
+//#define MAGICKCORE_LTDL_DELEGATE 1
+//#endif
 
 /* Define if the OS needs help to load dependent libraries for dlopen(). */
 /* #undef LTDL_DLOPEN_DEPLIBS */
@@ -1242,9 +1242,9 @@
 #endif
 
 /* Define if you have lzma compression library */
-#ifndef MAGICKCORE_LZMA_DELEGATE
-#define MAGICKCORE_LZMA_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_LZMA_DELEGATE
+//#define MAGICKCORE_LZMA_DELEGATE 1
+//#endif
 
 /* Define to prepend to default font search path. */
 /* #undef MAGICK_FONT_PATH */
@@ -1319,9 +1319,9 @@
 #endif
 
 /* Define if you have RSVG library */
-#ifndef MAGICKCORE_RSVG_DELEGATE
-#define MAGICKCORE_RSVG_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_RSVG_DELEGATE
+//#define MAGICKCORE_RSVG_DELEGATE 1
+//#endif
 
 /* Define to the type of arg 1 for `select'. */
 #ifndef MAGICKCORE_SELECT_TYPE_ARG1
@@ -1423,9 +1423,9 @@
 #endif
 
 /* Define if you have TIFF library */
-#ifndef MAGICKCORE_TIFF_DELEGATE
-#define MAGICKCORE_TIFF_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_TIFF_DELEGATE
+//#define MAGICKCORE_TIFF_DELEGATE 1
+//#endif
 
 /* Define to 1 if you can safely include both <sys/time.h> and <time.h>. */
 #ifndef MAGICKCORE_TIME_WITH_SYS_TIME
@@ -1491,9 +1491,9 @@
 #endif
 
 /* Define if you have X11 library */
-#ifndef MAGICKCORE_X11_DELEGATE
-#define MAGICKCORE_X11_DELEGATE 1
-#endif
+//#ifndef MAGICKCORE_X11_DELEGATE
+//#define MAGICKCORE_X11_DELEGATE 1
+//#endif
 
 /* Define if you have XML library */
 #ifndef MAGICKCORE_XML_DELEGATE
@@ -1529,9 +1529,9 @@
 /* #undef _MINIX */
 
 /* Define this for the OpenCL Accelerator */
-#ifndef MAGICKCORE__OPENCL
-#define MAGICKCORE__OPENCL 1
-#endif
+//#ifndef MAGICKCORE__OPENCL
+//#define MAGICKCORE__OPENCL 1
+//#endif
 
 /* Define to 2 if the system does not provide POSIX.1 features except with
    this defined. */
