@@ -25,7 +25,9 @@ extern "C" {
 
 #if !defined(_MAGICKWAND_CONFIG_H)
 # define _MAGICKWAND_CONFIG_H
-# if !defined(vms) && !defined(macintosh)
+# ifdef __ANDROID__
+#  include "MagickCore/android-magick-config.h"
+# elif !defined(vms) && !defined(macintosh)
 #  include "MagickCore/magick-config.h"
 # else
 #  include "magick-config.h"
