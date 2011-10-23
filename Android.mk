@@ -500,6 +500,8 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := MagickWand
 LOCAL_SRC_FILES := $(WAND_SOURCES)
 LOCAL_MODULE_TAGS := optional
+LOCAL_SHARED_LIBRARIES +=	\
+	libMagickCore
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
