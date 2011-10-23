@@ -469,7 +469,7 @@ utilities_stream_SOURCES = utilities/stream.c
 # include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := MagickCore
+LOCAL_MODULE := libMagickCore
 LOCAL_SRC_FILES := 	\
 	$(MAGICK_BASE_SRCS)	\
 	$(MAGICK_PLATFORM_SRCS)	\
