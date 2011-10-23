@@ -494,6 +494,7 @@ LOCAL_SHARED_LIBRARIES +=	\
 	libjpeg	\
 	libicuuc
 LOCAL_PRELINK_MODULE := false
+LOCAL_CFLAGS += -D__ANDROID__
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
@@ -503,6 +504,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SHARED_LIBRARIES +=	\
 	libMagickCore
 LOCAL_PRELINK_MODULE := false
+LOCAL_CFLAGS += -D__ANDROID__
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
@@ -512,4 +514,5 @@ LOCAL_SHARED_LIBRARIES +=	\
 	libMagickCore	\
 	libMagickWand
 LOCAL_MODULE_TAGS := optional
+LOCAL_CFLAGS += -D__ANDROID__
 include $(BUILD_EXECUTABLE)

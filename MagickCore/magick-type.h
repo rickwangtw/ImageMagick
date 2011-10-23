@@ -22,7 +22,11 @@
 extern "C" {
 #endif
 
-#include "MagickCore/magick-config.h"
+#ifdef __ANDROID__
+# include "MagickCore/android-magick-config.h"
+#else
+# include "MagickCore/magick-config.h"
+#endif
 
 #if !defined(MAGICKCORE_QUANTUM_DEPTH)
 #define MAGICKCORE_QUANTUM_DEPTH  16
