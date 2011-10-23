@@ -491,7 +491,8 @@ LOCAL_STATIC_LIBRARIES += 	\
 	libxml2	\
 	libpng
 LOCAL_SHARED_LIBRARIES +=	\
-	libjpeg
+	libjpeg	\
+	libicuuc
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
