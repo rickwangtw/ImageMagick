@@ -302,6 +302,7 @@ static MagickBooleanType JPEGErrorHandler(j_common_ptr jpeg_info)
     (void) ThrowMagickException(&image->exception,GetMagickModule(),
       CorruptImageError, "%s", (char *) message,image->filename);
   longjmp(error_manager->error_recovery,1);
+  return(MagickTrue);
 }
 
 static MagickBooleanType JPEGWarningHandler(j_common_ptr jpeg_info,int level)
