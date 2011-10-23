@@ -493,6 +493,7 @@ LOCAL_STATIC_LIBRARIES += 	\
 LOCAL_SHARED_LIBRARIES +=	\
 	libjpeg	\
 	libicuuc
+LOCAL_PRELINK_MODULE := false
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
