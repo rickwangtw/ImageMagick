@@ -621,9 +621,9 @@
 //#endif
 
 /* Define to 1 if you have the `posix_memalign' function. */
-#ifndef MAGICKCORE_HAVE_POSIX_MEMALIGN
-#define MAGICKCORE_HAVE_POSIX_MEMALIGN 1
-#endif
+//#ifndef MAGICKCORE_HAVE_POSIX_MEMALIGN
+//#define MAGICKCORE_HAVE_POSIX_MEMALIGN 1
+//#endif
 
 /* Define to 1 if you have the `posix_spawnp' function. */
 #ifndef MAGICKCORE_HAVE_POSIX_SPAWNP
