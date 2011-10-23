@@ -482,12 +482,14 @@ LOCAL_C_INCLUDES +=	\
 	external/bzip2/	\
 	external/libxml2/include	\
 	external/icu4c/common	\
-	external/jpeg/
+	external/jpeg/	\
+	external/libpng/
 LOCAL_STATIC_LIBRARIES += 	\
 	libft2	\
 	libz	\
 	libbz	\
-	libxml2
+	libxml2	\
+	libpng
 LOCAL_SHARED_LIBRARIES +=	\
 	libjpeg
 include $(BUILD_SHARED_LIBRARY)
